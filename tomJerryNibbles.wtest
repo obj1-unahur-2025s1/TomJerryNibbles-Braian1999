@@ -7,6 +7,8 @@ test "Si come a Jerry, la velocidad máxima pasa a ser 15.2 " {
   tom.comer(jerry)
   assert.equals(tom.velocidadMax(), 15.2)
 }
+
+
   
 
 
