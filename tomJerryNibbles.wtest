@@ -1,5 +1,15 @@
 import tomJerryNibbles.*
 
+test "velocidad maxima al inicio"{
+  assert.equals(tom.velocidadMax(), 10)
+}
+test "Si come a Jerry, la velocidad máxima pasa a ser 15.2 " {
+  tom.comer(jerry)
+  assert.equals(tom.velocidadMax(), 15.2)
+}
+  
+
+
 describe "Grupo de test" {
 
   test "test 1" {
